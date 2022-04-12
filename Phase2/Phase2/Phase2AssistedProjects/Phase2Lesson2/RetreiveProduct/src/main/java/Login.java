@@ -19,7 +19,7 @@ public class Login extends HttpServlet{
 	
  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
   
-  String url="jdbc:mysql://localhost:3306/Mphasis";
+  String url="jdbc:mysql://localhost:3306/Mydb";
   String uname="root";
   String pass="Root@password";
   

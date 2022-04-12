@@ -17,7 +17,7 @@ public  class  ConnectionUtil  { public  Connection  con=null; public  Statement
 
 public  ConnectionUtil()  throws  ClassNotFoundException,  SQLException{ Class.forName("com.mysql.cj.jdbc.Driver");
 
-con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mphasis","root ","Root@password");
+con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root ","Root@password");
 System.out.println("connection  established  with  database"); st=con.createStatement();
 }
 public  List<String[]>  getAvailableFlights(String  f,  String  t,  String  d)  {
